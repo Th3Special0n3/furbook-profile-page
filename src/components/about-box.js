@@ -3,8 +3,7 @@ import './css/about-box.css';
 
 const AboutMe = () => {
     return (
-        <div className="about-box">
-        <div className="container">
+        <div className="col-7 offset-1 about-box">
         <ul className="list-group">
           <p className="list-group-item heading">About</p>
           <p className="list-group-item">Age: 12</p>
@@ -15,7 +14,6 @@ const AboutMe = () => {
           <p className="list-group-item">Relationship Status: Single</p>
           <p className="list-group-item">Places Lived: Paris, France and Bronx, New York</p>
         </ul>
-      </div>
       </div>
     );
 }

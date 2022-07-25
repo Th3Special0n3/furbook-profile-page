@@ -14,9 +14,10 @@ const App = () => {
       <div className="App">
         <PetNav/>
         <div className="container">
+            <div className="row">
             <PictureBox/>
             <AboutMe/>
-            
+            </div>
           </div>
           <div className="row">
              

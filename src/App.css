@@ -7,6 +7,5 @@
 }
 
 .container{
-    display: flex;
-    margin: 2px;
+    display: grid;
 }
